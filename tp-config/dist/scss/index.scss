@@ -1,0 +1,30 @@
+$red: red;
+$blue: blue;
+$green: green;
+
+@mixin bg-color($color){
+  background: $color;
+};
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100vh;
+  div {
+    width: 250px;
+    height: 250px;
+    &.red {
+      @include bg-color($red);
+    }
+    &.blue {
+      @include bg-color($blue);
+    }
+    &.green {
+      @include bg-color($green);
+    }
+  }
+}
+
