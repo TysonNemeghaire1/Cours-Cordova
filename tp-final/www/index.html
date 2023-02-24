@@ -20,17 +20,19 @@
             </ion-toolbar>
         </ion-header>
         <ion-content class="ion-padding">
-            <ion-list>
-                <ion-item class="menu-button active">
-                    <ion-label name="menu-button" id="btn-home">Accueil</ion-label>
-                </ion-item>
-                <ion-item  class="menu-button">
-                    <ion-label name="menu-button" id="btn-list">Liste</ion-label>
-                </ion-item>
-                <ion-item  class="menu-button">
-                    <ion-label name="menu-button" id="btn-form">Ajouter une CG</ion-label>
-                </ion-item>
-            </ion-list>
+            <ion-menu-toggle>
+                <ion-list>
+                    <ion-item class="menu-button active">
+                        <ion-label name="menu-button" id="btn-home">Accueil</ion-label>
+                    </ion-item>
+                    <ion-item class="menu-button">
+                        <ion-label name="menu-button" id="btn-list">Liste</ion-label>
+                    </ion-item>
+                    <ion-item class="menu-button">
+                        <ion-label name="menu-button" id="btn-form">Ajouter une CG</ion-label>
+                    </ion-item>
+                </ion-list>
+            </ion-menu-toggle>
         </ion-content>
     </ion-menu>
     <div class="ion-page" id="main-content">

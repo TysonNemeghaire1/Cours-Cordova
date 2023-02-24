@@ -11,6 +11,18 @@
       "model": "3080",
       "stock": 3,
       "id": 4
+    },
+    {
+      "manufacturer": "AMD",
+      "model": "6950 XT",
+      "stock": 6,
+      "id": 5
+    },
+    {
+      "manufacturer": "AMD",
+      "model": "6600",
+      "stock": 20,
+      "id": 6
     }
   ]
 }

@@ -1,5 +1,4 @@
 import GraphicCard from './interfaces';
-import {createAllHTMLGraphicCard} from "./index";
 
 export const getGraphicCards = async () => {
     const response = await fetch("http://localhost:3000/graphic_cards");

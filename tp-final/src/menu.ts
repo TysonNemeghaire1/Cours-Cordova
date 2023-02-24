@@ -1,5 +1,7 @@
 import {createAllHTMLGraphicCard} from "./index";
 
+let firstRender = true;
+
 const homeBtn = document.getElementById('btn-home');
 const listBtn = document.getElementById('btn-list');
 const formBtn = document.getElementById('btn-form');
@@ -35,7 +37,9 @@ export function showList(btnId: string, isEdited: boolean) {
         homeSection.hidden = true;
         listSection.hidden = false;
         formSection.hidden = true;
+        if (!firstRender && list) list.replaceChildren();
         if (!isEdited) createAllHTMLGraphicCard();
+        firstRender = false;
     }
 }
 
