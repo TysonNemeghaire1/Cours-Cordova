@@ -1,0 +1,16 @@
+{
+  "graphic_cards": [
+    {
+      "manufacturer": "Intel",
+      "model": "4070 TI",
+      "stock": 20,
+      "id": 3
+    },
+    {
+      "manufacturer": "Intel",
+      "model": "3080",
+      "stock": 3,
+      "id": 4
+    }
+  ]
+}
